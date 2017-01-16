@@ -1,0 +1,325 @@
+@import "base/reset.css";
+header {
+  padding-bottom: 10px;
+}
+header li {
+  display: inline-block;
+}
+@keyframes calling {
+  0% {
+    padding-left: 0px;
+  }
+  5% {
+    padding-left: 3px;
+  }
+  10% {
+    padding-left: 0px;
+  }
+  15% {
+    padding-left: -3px;
+  }
+  20% {
+    padding-left: 0px;
+  }
+  25% {
+    padding-left: 3px;
+  }
+  30% {
+    padding-left: 0px;
+  }
+  35% {
+    padding-left: -3px;
+  }
+  40% {
+    padding-left: 0px;
+  }
+  45% {
+    padding-left: 3px;
+  }
+  50% {
+    padding-left: 0px;
+  }
+  100% {
+    padding-left: 0px;
+  }
+}
+.call-us {
+  padding-top: 40px;
+}
+.call-us a {
+  padding-top: 10px;
+  padding-left: 0px;
+  text-align: left;
+}
+a {
+  text-decoration: none;
+  color: #555555;
+}
+a:hover {
+  color: #68d4c1;
+  text-decoration: none;
+}
+nav {
+  margin-top: 40px;
+}
+nav li {
+  padding-top: 10px;
+  font-size: 12px;
+}
+.call-us1 {
+  padding-right: 7px;
+}
+.call-us1 .fa {
+  color: #68d4c1;
+  animation: calling .5s linear infinite;
+}
+footer p {
+  margin-bottom: 20px;
+  color: #555555;
+  font-size: 12px;
+}
+footer span {
+  color: #68d4c1;
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/BebasNeue Regular.ttf');
+}
+body {
+  background-color: #ffffff;
+  text-align: center;
+  font-family: "Helvetica", "Tahoma", sans-serif;
+  font-size: 18px;
+  color: #737373;
+}
+h2,
+h3 {
+  font-size: 23px;
+  padding: 10px 0px;
+  color: #555555;
+}
+.font_setting {
+  font-size: 15px;
+  text-align: justify;
+  padding: 5px 0px;
+  text-indent: 1.5em;
+  line-height: 1.5em;
+}
+p {
+  font-size: 15px;
+  text-align: justify;
+  padding: 5px 0px;
+  text-indent: 1.5em;
+  line-height: 1.5em;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+section {
+  padding-bottom: 10px;
+}
+.about-us {
+  background: url('../images/sky-wave1.png') repeat;
+}
+.section.tagline {
+  background-imades: url(../images/airplan.jpg) no-repeat;
+}
+.line {
+  border-bottom: 1px solid #737373;
+}
+.col-lg-12.col-md-12.col-sm-12 {
+  padding-right: 0;
+  padding-left: 0;
+}
+.advantages {
+  background: url('../images/bg-diagonal.png') repeat;
+}
+.advantages .fa {
+  padding-right: 10px;
+  color: #68d4c1;
+  padding-top: 0px;
+}
+.advantages li {
+  font-size: 15px;
+  text-align: justify;
+  padding: 5px 0px;
+  text-indent: 1.5em;
+  line-height: 1.5em;
+}
+.portfolio p {
+  text-indent: 0em;
+}
+.portfolio img {
+  width: 100%;
+}
+.portfolio li {
+  padding-bottom: 10px;
+}
+.jobs {
+  background: url('../images/sky-wave1.png') repeat;
+}
+.jobs p {
+  text-indent: 0em;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.salary {
+  color: #51222a;
+}
+.contacts {
+  background: url('../images/bg-diagonal.png') repeat;
+}
+.contacts a {
+  font-size: 15px;
+  padding: 5px 0px;
+}
+.yandex-map {
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+}
+.tagline {
+  background: url('../images/airplan.jpg') no-repeat;
+  height: 550px;
+  background-size: cover;
+}
+.tagline p {
+  color: #ffffff;
+  font-size: 24px;
+  padding-top: 40px;
+}
+.tagline p span {
+  color: #68d4c1;
+  font-size: 36px;
+}
+.aboutus {
+  background: url('../images/bg-diagonal.png') repeat;
+}
+.aboutus b {
+  color: #68d4c1;
+  font-size: 20px;
+  font-family: "Bebas Neue", Regular;
+}
+.aboutus b span {
+  font-size: 42px;
+}
+.aboutus h3 {
+  text-align: left;
+  font-size: 26px;
+  padding: 15px 0 30px 10px;
+}
+.digits {
+  background: url('../images/sky-wave1.png') repeat;
+}
+.digits b {
+  font-family: "Bebas Neue", Regular;
+  font-size: 42px;
+  color: #51222a;
+}
+.digits h3 {
+  text-align: left;
+  font-size: 26px;
+  padding: 15px 0 30px 10px;
+}
+.partnership p {
+  padding-top: 25px;
+  text-indent: 0;
+  text-align: left;
+}
+.partnership p span {
+  font-weight: bold;
+}
+.partnership .fa {
+  padding-top: 10px;
+  color: #68d4c1;
+}
+.ouradvantages {
+  background: url('../images/singleairplan1.jpg') no-repeat;
+  background-size: cover;
+  text-align: left;
+}
+.ouradvantages h3 {
+  text-align: left;
+  font-size: 26px;
+  padding: 15px 0 40px 10px;
+}
+.ouradvantages b {
+  color: #68d4c1;
+  font-size: 42px;
+  font-family: "Bebas Neue", Regular;
+}
+.ouradvantages p {
+  font-size: 14px;
+  text-indent: 0;
+  padding-top: 0;
+  padding-bottom: 20px;
+  color: #555555;
+  text-align: left;
+}
+.ouradvantages p span {
+  font-weight: bold;
+}
+.ouradvantages1 {
+  background: url('../images/sky-wave1.png') repeat;
+}
+.ouradvantages1 p {
+  text-indent: 0em;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.ouradvantages1 h2 {
+  padding-bottom: 30px;
+}
+.ouradvantages1 .fa {
+  color: #51222a;
+}
+.services {
+  background: url('../images/bg-diagonal.png') repeat;
+}
+.services li {
+  display: block;
+  padding-bottom: 30px;
+}
+.services h3 {
+  text-align: center;
+  font-size: 26px;
+  padding: 15px 0 30px 10px;
+}
+.services ul :nth-child(1) a {
+  width: 70%;
+  background: #68d4c1;
+}
+.services ul :nth-child(2) a {
+  width: 60%;
+  background: #79c4a6;
+}
+.services ul :nth-child(3) a {
+  width: 50%;
+  background: #7ab29c;
+}
+.services ul :nth-child(4) a {
+  width: 40%;
+  background: #48968e;
+}
+.services ul :nth-child(5) a {
+  width: 30%;
+  background: #056d76;
+}
+.services ul :nth-child(6) a {
+  width: 20%;
+  background: #01596c;
+}
+.services-group {
+  width: 100%;
+}
+.services-group a {
+  border-radius: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 9px 10px 11px;
+  display: block;
+}
+.services ul a:hover {
+  background: #51222a;
+}
